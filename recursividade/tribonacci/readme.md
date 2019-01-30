@@ -1,11 +1,8 @@
-## Super Fatorial
+## Sequência de Tribonacci
 
-O superfatorial de um número N é definida pelo produto dos N primeiros fatoriais
-de N. 
+Os números tribonacci são definidos pela seguinte recursão:
 
-Assim, o superfatorial de 4 é:
+![](tribonacci.jpg)
 
-**sf(4) = 1! * 2! * 3! * 4! = 288**
-
-Faça uma função recursiva que receba um número inteiro positivo N e retorne o
-**superfatorial** desse número.
+Faça uma função recursiva que receba um número N e retorne o N-ésimo termo da
+**sequência de tribonacci**.

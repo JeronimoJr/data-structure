@@ -5,4 +5,4 @@ como segue:
 
 ![](ackermann.jpg)
 
-Faça uma função recursiva em C para computar a **função de Ackerman**.
+Faça uma função recursiva em C para computar a **função de Ackermann**.
