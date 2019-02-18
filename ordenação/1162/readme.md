@@ -1,12 +1,14 @@
 # Autor: Francisco Jerônimo Da Silva Júnior
-## Estrada de Juá
+## Rua de Juá
 
 Em uma matriz com os caracteres '@', '$', '#', as linhas e as colunas podem ser vistas
-como "ruas", '$' representa um salva-vida, '@' representa um pedestre e'#' representa um buraco, caso algum pedestre se dapare na sua frente com algum buraco, ele cairá e consequentemente
-morrerá (Os buracos em Juá são bem perigosos), ao menos que exista alguém para lhe salvar, esse alguém já conhece bem as ruas de Juá e te ajudará a escapar do perigo iminente, porém
+como "ruas", '$' representa um salva-vida, '@' representa um pedestre e '#' representa um buraco, caso algum pedestre se depare na sua frente com algum buraco, ele cairá e consequentemente
+morrerá (os buracos em Juá são bem perigosos), ao menos que exista alguém para lhe salvar, esse pessoa já conhece bem as ruas de Juá e te ajudará a escapar do perigo iminente, porém
 essa pessoa deverá está em uma posição adjacente ao do buraco.
-	- Exemplo:
-		```
+
+Exemplo.:
+
+		
 		@ # $
 		  
 		  $	
@@ -25,9 +27,9 @@ na sua frente, um pedestre é dito como salvo quando ocorre que um salva-vida es
 
 Entrada:
 - As linhas e colunas da matriz de dimensão 5x5, os caracteres são restringidos há:
-    - $ Representa um salva-vida.
-    - @ Representa um pedreste .
-    - # Representa um buraco.
+    - '$' Representa um salva-vida.
+    - '@' Representa um pedreste .
+    - '#' Representa um buraco.
 
 Saída
 - A quantidade de pedestres que morreram e que foram salvos.
@@ -43,9 +45,38 @@ Saída
 # @ # @ #
 @ # @ # $
 @ $ @ @ #
+
 ======== Saída
- *1 Pedestre(s) morreu*
- *6 Pedestre(s) foram salvos*
+
+ 1 Pedestre(s) morreu
+ 6 Pedestre(s) foram salvos
 <<<<<<<<
+
+>>>>>>>>> Entrada
+
+$ $ # # $ 
+# @ $ @ # 
+$ $ $ # $ 
+# @ @ @ $ 
+@ # $ # $ 
+
+======== Saída
+
+0 Pedestre(s) morreram
+2 Pedestre(s) foram salvos
+<<<<<<<<
+
+>>>>>>>>> Entrada
+
+# $ # @ $ 
+$ $ $ $ # 
+# # $ # $ 
+# @ @ $ # 
+@ $ @ # # 
+
+======== Saída
+
+0 Pedestre(s) morreram
+1 Pedestre(s) foram salvos
 
 ```
